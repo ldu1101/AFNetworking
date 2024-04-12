@@ -203,6 +203,7 @@
 		E2B10D94233035100004E005 /* Amazon.cer in Resources */ = {isa = PBXBuildFile; fileRef = E2B10D8D233035100004E005 /* Amazon.cer */; };
 		E2B10D95233035100004E005 /* Amazon.cer in Resources */ = {isa = PBXBuildFile; fileRef = E2B10D8D233035100004E005 /* Amazon.cer */; };
 		E2B10D96233035100004E005 /* Amazon.cer in Resources */ = {isa = PBXBuildFile; fileRef = E2B10D8D233035100004E005 /* Amazon.cer */; };
+		E5E0EBC42BC8CBFE0033C15D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E5E0EBC22BC8CBFD0033C15D /* PrivacyInfo.xcprivacy */; };
 		E91164651DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */; };
 		E91164661DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */; };
 		E91164671DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */; };
@@ -325,6 +326,7 @@
 		E2B10D8B233035100004E005 /* Starfield Services Root Certificate Authority - G2.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Starfield Services Root Certificate Authority - G2.cer"; sourceTree = "<group>"; };
 		E2B10D8C233035100004E005 /* Amazon Root CA 1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amazon Root CA 1.cer"; sourceTree = "<group>"; };
 		E2B10D8D233035100004E005 /* Amazon.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Amazon.cer; sourceTree = "<group>"; };
+		E5E0EBC22BC8CBFD0033C15D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		E91164641DA6A7AE00DFFF56 /* AFPropertyListRequestSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestSerializerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -487,6 +489,7 @@
 		2995222F1BBF104D00859F49 = {
 			isa = PBXGroup;
 			children = (
+				E5E0EBC32BC8CBFD0033C15D /* Resources */,
 				299522451BBF125A00859F49 /* AFNetworking */,
 				299522851BBF13C700859F49 /* UIKit+AFNetworking */,
 				2995223B1BBF104D00859F49 /* Supporting Files */,
@@ -589,6 +592,14 @@
 				5F4323B51BF63741003B8749 /* google.com.cer */,
 			);
 			path = Google.com;
+			sourceTree = "<group>";
+		};
+		E5E0EBC32BC8CBFD0033C15D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5E0EBC22BC8CBFD0033C15D /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -953,6 +964,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E0EBC42BC8CBFE0033C15D /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
